@@ -1,0 +1,8 @@
+.git
+reports
+k8s
+docs
+tests
+scripts
+Jenkinsfile
+README.md

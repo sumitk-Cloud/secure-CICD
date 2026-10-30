@@ -1,0 +1,15 @@
+# PLACEHOLDER - replace with real output from your failing build
+# Expected shape of a failing result (package/CVE rows will differ on your run):
+
+Python (python-pkg)
+===================
+Total: N (HIGH: x, CRITICAL: y)
+
++-----------+----------------+----------+-----------+-------------------+---------------+
+|  LIBRARY  | VULNERABILITY  | SEVERITY |  STATUS   | INSTALLED VERSION | FIXED VERSION |
++-----------+----------------+----------+-----------+-------------------+---------------+
+| pyyaml    | CVE-XXXX-XXXXX | CRITICAL | fixed     | 5.3.1             | <fixed ver>   |
+| urllib3   | CVE-XXXX-XXXXX | HIGH     | fixed     | 1.24.1            | <fixed ver>   |
++-----------+----------------+----------+-----------+-------------------+---------------+
+
+Jenkins: Stage 'Security Gate' FAILED (trivy exit code 1) -> Push/Deploy stages SKIPPED

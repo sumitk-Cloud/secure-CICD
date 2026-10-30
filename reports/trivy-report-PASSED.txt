@@ -1,0 +1,10 @@
+# PLACEHOLDER - replace with real output from your passing build
+# Expected shape of a clean result:
+
+YOUR_DOCKERHUB_USER/secure-flask-app:<build-number> (debian 12.x)
+=================================================================
+Total: 0 (HIGH: 0, CRITICAL: 0)
+
+Python (python-pkg)
+===================
+Total: 0 (HIGH: 0, CRITICAL: 0)
