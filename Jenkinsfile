@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         // TODO: replace with your Docker Hub username
-        IMAGE_NAME = 'YOUR_DOCKERHUB_USER/secure-flask-app'
+        IMAGE_NAME = 'sumitk5550/secure-flask-app'
         IMAGE_TAG  = "${BUILD_NUMBER}"
         FULL_IMAGE = "${IMAGE_NAME}:${IMAGE_TAG}"
     }
